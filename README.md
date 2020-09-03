@@ -3,6 +3,8 @@ A simple Spigot plugin that rewards player kill with a configurable item or heal
 
 Add jar file to plugins folder on Spigot server (Minecraft 1.16.2)
 
+https://www.spigotmc.org/wiki/spigot-plugin-development/
+
 # Commands:
 
 -- Set item reward for player
