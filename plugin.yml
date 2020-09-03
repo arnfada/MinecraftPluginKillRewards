@@ -1,0 +1,17 @@
+name: KillRewardsItems
+main: com.oneUp.killRewardsItems.KillRewardsItems
+version: 1.0
+api-version: 1.15
+commands:
+   killRewardsItem:
+      description: Awards a successfull kill with a item reward.
+      usage: /<killRewardsItem> <set|clear> <player> <item> <value>
+      permission: KillRewardsItems.killReward
+   killRewardsHealth:
+      description: Awards a successfull kill with a health reward.
+      usage: /<killRewardsHealth> <set|clear> <player> <value>
+      permission: KillRewardsItems.killReward
+permissions:
+  KillRewardsItems.killReward:
+   description: Allows foo command
+   default: true
